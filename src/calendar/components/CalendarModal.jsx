@@ -89,8 +89,6 @@ export const CalendarModal = () => {
       return;
     }
 
-    console.log(formValues);
-
     await startSavingEvent(formValues);
     closeDateModal();
     setFormSubmitted(false);
@@ -168,7 +166,7 @@ export const CalendarModal = () => {
         </div>
 
         <button type="submit" className="btn btn-outline-primary btn-block">
-          <i className="far fa-save"></i>
+          <i className="fas fa-save"></i>
           <span> Guardar</span>
         </button>
       </form>

@@ -14,7 +14,7 @@ export const AppRouter = () => {
   if (status === "checking") {
     return (
       <div className="loader-box">
-        <span className="loader"></span>
+        <span aria-label="span-loader" className="loader"></span>
       </div>
     );
   }
